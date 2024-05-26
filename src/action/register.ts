@@ -4,4 +4,4 @@ import * as z from "zod";
 
 
 
-import {RegisterSchema} from "@"
+import {RegisterSchema} from "@/schemas"
