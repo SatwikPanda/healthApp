@@ -7,8 +7,8 @@ const Navbar = () => {
     return (
         <header>
             <nav>
-                <div className="px-9 py-2 flex justify-between items-center">
-                    <div className="mx-2">
+                <div className="px-5 py-2 lg:px-9 flex justify-between items-center">
+                    <div className="">
                         <Link href="#" className="font-bold text-xl tracking-tighter">Doccon</Link>
                     </div>
                     <div className="flex justify-between tracking-tight hidden lg:block">

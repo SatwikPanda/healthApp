@@ -1,6 +1,8 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardFooter } from "../ui/card";
+import { Header } from "./header";
+import { Social } from "./social";
 
 interface CardWrapperProps {
     children: React.ReactNode;
@@ -15,7 +17,15 @@ export const CardWrapper: React.FC<CardWrapperProps> = ({
 }) => {
     return (
         <Card className="w-[400px] shadow-md">
-            {children}
+            <CardHeader><Header label={headerLabel}/></CardHeader>
+            <CardContent>
+                {children}
+            </CardContent>
+            
+                <CardFooter>
+                    <Social />
+                </CardFooter>
+         
         </Card>
     )
 }
