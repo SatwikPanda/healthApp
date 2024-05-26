@@ -8,8 +8,11 @@ import { Button } from "../ui/button"
 export const Social = () => {
     return (
         <div className="flex items-center w-full gap-x-2">
-            <Button>
-                <FcGoogle />
+            <Button size="lg" className="w-full" variant="outline" onClick={() => {}}>
+                <FcGoogle className="h-6 w-6"/>
+            </Button>
+            <Button size="lg" className="w-full" variant="outline" onClick={() => {}}>
+                <FaGithub className="h-6 w-6"/>
             </Button>
         </div>
     )
